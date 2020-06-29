@@ -1,5 +1,5 @@
-FROM registry.fedoraproject.org/fedora:31
-LABEL description="This is a fedora 31 container image with fio"
+FROM registry.fedoraproject.org/fedora:latest
+LABEL description="This is a Fedora container image with fio"
 MAINTAINER Filip Balak <fbalak@redhat.com>
 RUN dnf update -y \
     && dnf install -y dnf-plugins-core \
